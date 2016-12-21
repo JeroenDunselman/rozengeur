@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9DFFE3C1E0AF2620062DF83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFFE3B1E0AF2620062DF83 /* AppDelegate.swift */; };
+		A9DFFE3E1E0AF2620062DF83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFFE3D1E0AF2620062DF83 /* ViewController.swift */; };
+		A9DFFE411E0AF2620062DF83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DFFE3F1E0AF2620062DF83 /* Main.storyboard */; };
+		A9DFFE431E0AF2620062DF83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DFFE421E0AF2620062DF83 /* Assets.xcassets */; };
+		A9DFFE461E0AF2620062DF83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DFFE441E0AF2620062DF83 /* LaunchScreen.storyboard */; };
+		A9DFFE511E0AF2620062DF83 /* RozengeurTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFFE501E0AF2620062DF83 /* RozengeurTests.swift */; };
+		A9DFFE5C1E0AF2620062DF83 /* RozengeurUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFFE5B1E0AF2620062DF83 /* RozengeurUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9DFFE4D1E0AF2620062DF83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9DFFE301E0AF2610062DF83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9DFFE371E0AF2620062DF83;
+			remoteInfo = Rozengeur;
+		};
+		A9DFFE581E0AF2620062DF83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9DFFE301E0AF2610062DF83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9DFFE371E0AF2620062DF83;
+			remoteInfo = Rozengeur;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9DFFE381E0AF2620062DF83 /* Rozengeur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rozengeur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DFFE3B1E0AF2620062DF83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9DFFE3D1E0AF2620062DF83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9DFFE401E0AF2620062DF83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9DFFE421E0AF2620062DF83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9DFFE451E0AF2620062DF83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9DFFE471E0AF2620062DF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9DFFE4C1E0AF2620062DF83 /* RozengeurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RozengeurTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DFFE501E0AF2620062DF83 /* RozengeurTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RozengeurTests.swift; sourceTree = "<group>"; };
+		A9DFFE521E0AF2620062DF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9DFFE571E0AF2620062DF83 /* RozengeurUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RozengeurUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DFFE5B1E0AF2620062DF83 /* RozengeurUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RozengeurUITests.swift; sourceTree = "<group>"; };
+		A9DFFE5D1E0AF2620062DF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9DFFE351E0AF2620062DF83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DFFE491E0AF2620062DF83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DFFE541E0AF2620062DF83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9DFFE2F1E0AF2610062DF83 = {
+			isa = PBXGroup;
+			children = (
+				A9DFFE3A1E0AF2620062DF83 /* Rozengeur */,
+				A9DFFE4F1E0AF2620062DF83 /* RozengeurTests */,
+				A9DFFE5A1E0AF2620062DF83 /* RozengeurUITests */,
+				A9DFFE391E0AF2620062DF83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9DFFE391E0AF2620062DF83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFFE381E0AF2620062DF83 /* Rozengeur.app */,
+				A9DFFE4C1E0AF2620062DF83 /* RozengeurTests.xctest */,
+				A9DFFE571E0AF2620062DF83 /* RozengeurUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9DFFE3A1E0AF2620062DF83 /* Rozengeur */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFFE3B1E0AF2620062DF83 /* AppDelegate.swift */,
+				A9DFFE3D1E0AF2620062DF83 /* ViewController.swift */,
+				A9DFFE3F1E0AF2620062DF83 /* Main.storyboard */,
+				A9DFFE421E0AF2620062DF83 /* Assets.xcassets */,
+				A9DFFE441E0AF2620062DF83 /* LaunchScreen.storyboard */,
+				A9DFFE471E0AF2620062DF83 /* Info.plist */,
+			);
+			path = Rozengeur;
+			sourceTree = "<group>";
+		};
+		A9DFFE4F1E0AF2620062DF83 /* RozengeurTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFFE501E0AF2620062DF83 /* RozengeurTests.swift */,
+				A9DFFE521E0AF2620062DF83 /* Info.plist */,
+			);
+			path = RozengeurTests;
+			sourceTree = "<group>";
+		};
+		A9DFFE5A1E0AF2620062DF83 /* RozengeurUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9DFFE5B1E0AF2620062DF83 /* RozengeurUITests.swift */,
+				A9DFFE5D1E0AF2620062DF83 /* Info.plist */,
+			);
+			path = RozengeurUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9DFFE371E0AF2620062DF83 /* Rozengeur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DFFE601E0AF2620062DF83 /* Build configuration list for PBXNativeTarget "Rozengeur" */;
+			buildPhases = (
+				A9DFFE341E0AF2620062DF83 /* Sources */,
+				A9DFFE351E0AF2620062DF83 /* Frameworks */,
+				A9DFFE361E0AF2620062DF83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rozengeur;
+			productName = Rozengeur;
+			productReference = A9DFFE381E0AF2620062DF83 /* Rozengeur.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9DFFE4B1E0AF2620062DF83 /* RozengeurTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DFFE631E0AF2620062DF83 /* Build configuration list for PBXNativeTarget "RozengeurTests" */;
+			buildPhases = (
+				A9DFFE481E0AF2620062DF83 /* Sources */,
+				A9DFFE491E0AF2620062DF83 /* Frameworks */,
+				A9DFFE4A1E0AF2620062DF83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9DFFE4E1E0AF2620062DF83 /* PBXTargetDependency */,
+			);
+			name = RozengeurTests;
+			productName = RozengeurTests;
+			productReference = A9DFFE4C1E0AF2620062DF83 /* RozengeurTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9DFFE561E0AF2620062DF83 /* RozengeurUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DFFE661E0AF2620062DF83 /* Build configuration list for PBXNativeTarget "RozengeurUITests" */;
+			buildPhases = (
+				A9DFFE531E0AF2620062DF83 /* Sources */,
+				A9DFFE541E0AF2620062DF83 /* Frameworks */,
+				A9DFFE551E0AF2620062DF83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9DFFE591E0AF2620062DF83 /* PBXTargetDependency */,
+			);
+			name = RozengeurUITests;
+			productName = RozengeurUITests;
+			productReference = A9DFFE571E0AF2620062DF83 /* RozengeurUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9DFFE301E0AF2610062DF83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jeroen Dunselman";
+				TargetAttributes = {
+					A9DFFE371E0AF2620062DF83 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 447M47227T;
+						ProvisioningStyle = Automatic;
+					};
+					A9DFFE4B1E0AF2620062DF83 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 447M47227T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9DFFE371E0AF2620062DF83;
+					};
+					A9DFFE561E0AF2620062DF83 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 447M47227T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9DFFE371E0AF2620062DF83;
+					};
+				};
+			};
+			buildConfigurationList = A9DFFE331E0AF2610062DF83 /* Build configuration list for PBXProject "Rozengeur" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9DFFE2F1E0AF2610062DF83;
+			productRefGroup = A9DFFE391E0AF2620062DF83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9DFFE371E0AF2620062DF83 /* Rozengeur */,
+				A9DFFE4B1E0AF2620062DF83 /* RozengeurTests */,
+				A9DFFE561E0AF2620062DF83 /* RozengeurUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9DFFE361E0AF2620062DF83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DFFE461E0AF2620062DF83 /* LaunchScreen.storyboard in Resources */,
+				A9DFFE431E0AF2620062DF83 /* Assets.xcassets in Resources */,
+				A9DFFE411E0AF2620062DF83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DFFE4A1E0AF2620062DF83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DFFE551E0AF2620062DF83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9DFFE341E0AF2620062DF83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DFFE3E1E0AF2620062DF83 /* ViewController.swift in Sources */,
+				A9DFFE3C1E0AF2620062DF83 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DFFE481E0AF2620062DF83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DFFE511E0AF2620062DF83 /* RozengeurTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DFFE531E0AF2620062DF83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DFFE5C1E0AF2620062DF83 /* RozengeurUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9DFFE4E1E0AF2620062DF83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9DFFE371E0AF2620062DF83 /* Rozengeur */;
+			targetProxy = A9DFFE4D1E0AF2620062DF83 /* PBXContainerItemProxy */;
+		};
+		A9DFFE591E0AF2620062DF83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9DFFE371E0AF2620062DF83 /* Rozengeur */;
+			targetProxy = A9DFFE581E0AF2620062DF83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9DFFE3F1E0AF2620062DF83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9DFFE401E0AF2620062DF83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9DFFE441E0AF2620062DF83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9DFFE451E0AF2620062DF83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9DFFE5E1E0AF2620062DF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9DFFE5F1E0AF2620062DF83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9DFFE611E0AF2620062DF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 447M47227T;
+				INFOPLIST_FILE = Rozengeur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopee.Rozengeur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A9DFFE621E0AF2620062DF83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 447M47227T;
+				INFOPLIST_FILE = Rozengeur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopee.Rozengeur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A9DFFE641E0AF2620062DF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 447M47227T;
+				INFOPLIST_FILE = RozengeurTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopee.RozengeurTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rozengeur.app/Rozengeur";
+			};
+			name = Debug;
+		};
+		A9DFFE651E0AF2620062DF83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 447M47227T;
+				INFOPLIST_FILE = RozengeurTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopee.RozengeurTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rozengeur.app/Rozengeur";
+			};
+			name = Release;
+		};
+		A9DFFE671E0AF2620062DF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 447M47227T;
+				INFOPLIST_FILE = RozengeurUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopee.RozengeurUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Rozengeur;
+			};
+			name = Debug;
+		};
+		A9DFFE681E0AF2620062DF83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 447M47227T;
+				INFOPLIST_FILE = RozengeurUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopee.RozengeurUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Rozengeur;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9DFFE331E0AF2610062DF83 /* Build configuration list for PBXProject "Rozengeur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DFFE5E1E0AF2620062DF83 /* Debug */,
+				A9DFFE5F1E0AF2620062DF83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DFFE601E0AF2620062DF83 /* Build configuration list for PBXNativeTarget "Rozengeur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DFFE611E0AF2620062DF83 /* Debug */,
+				A9DFFE621E0AF2620062DF83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9DFFE631E0AF2620062DF83 /* Build configuration list for PBXNativeTarget "RozengeurTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DFFE641E0AF2620062DF83 /* Debug */,
+				A9DFFE651E0AF2620062DF83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9DFFE661E0AF2620062DF83 /* Build configuration list for PBXNativeTarget "RozengeurUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DFFE671E0AF2620062DF83 /* Debug */,
+				A9DFFE681E0AF2620062DF83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9DFFE301E0AF2610062DF83 /* Project object */;
+}
